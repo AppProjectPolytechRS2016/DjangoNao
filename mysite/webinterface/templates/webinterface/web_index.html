@@ -21,7 +21,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Interface Web de Commande de NAO</a>
+              <a class="navbar-brand" href="#">Nao Web Interface</a>
           </div>
           <!-- /.navbar-header -->
 
@@ -48,9 +48,20 @@
       <div id="page-wrapper">
           <div class="row">
               <div class="col-lg-12">
-                  <h1 class="page-header">Dashboard</h1>
+                  <h1 class="page-header">Admin Dashboard</h1>
               </div>
           </div>
+
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="jumbotron">
+                      <h1 align="center">Welcome on the Nao Web Application</h1>
+                      <p align="center">Here, you will be able to control the Nao robot and see what orders he is receiving from the server</p>
+                      <p align="center"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                  </div>
+              </div>
+          </div>
+
           <div class="row">
               <div class="col-lg-12">
                 <div class="panel panel-primary">
@@ -58,8 +69,12 @@
                     <div class="panel-body">
                         <b>How to use the Nao application</b>
                         <ul>
-                          <li><b>First</b>, make sure the server is running and the robot you want to command is switched on and that he is connected to the network</li>
+                          <li><b>First</b>, make sure the server is running and the robot you want to control is switched on and that he is connected to the network (nao-wifi)</li>
                         </ul>
+                        <ul>
+                          <li><b>Second</b>, Press the button Start App below. A connection message should have been sent to the server</li>
+                        </ul>
+                        <p align="center"><a class="btn btn-primary btn-lg" href="#" role="button">Start Application</a> <a class="btn btn-danger btn-lg" href="#" role="button">Stop Application</a></p>
                     </div>
                 </div>
               </div>
@@ -97,8 +112,8 @@
                                   <i class="fa fa-tasks fa-5x"></i>
                               </div>
                               <div class="col-xs-9 text-right">
-                                  <div class="huge">12</div>
-                                  <div>New Tasks!</div>
+                                  <div class="huge">4</div>
+                                  <div>Features in Dev</div>
                               </div>
                           </div>
                       </div>
@@ -141,7 +156,7 @@
                                   <i class="fa fa-support fa-5x"></i>
                               </div>
                               <div class="col-xs-9 text-right">
-                                  <div class="huge">13</div>
+                                  <div class="huge">2</div>
                                   <div>Errors</div>
                               </div>
                           </div>
@@ -158,40 +173,9 @@
           </div>
           <!-- /.row -->
           <div class="row">
-              <div class="col-lg-12">
-                  <div class="panel panel-default">
-                      <div class="panel-heading">
-                          <i class="fa fa-bar-chart-o fa-fw"></i> Area Chart Example
-                      </div>
-                      <!-- /.panel-heading -->
-                      <div class="panel-body">
-                          <div id="morris-area-chart"></div>
-                      </div>
-                      <!-- /.panel-body -->
-                  </div>
-                  <!-- /.panel -->
                   <div class="panel panel-default">
                       <div class="panel-heading">
                           <i class="fa fa-bar-chart-o fa-fw"></i> Lastest orders sent
-                          <div class="pull-right">
-                              <div class="btn-group">
-                                  <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                      Actions
-                                      <span class="caret"></span>
-                                  </button>
-                                  <ul class="dropdown-menu pull-right" role="menu">
-                                      <li><a href="#">Action</a>
-                                      </li>
-                                      <li><a href="#">Another action</a>
-                                      </li>
-                                      <li><a href="#">Something else here</a>
-                                      </li>
-                                      <li class="divider"></li>
-                                      <li><a href="#">Separated link</a>
-                                      </li>
-                                  </ul>
-                              </div>
-                          </div>
                       </div>
                       <!-- /.panel-heading -->
                       <div class="panel-body">
@@ -209,52 +193,40 @@
                                           </thead>
                                           <tbody>
                                               <tr>
-                                                  <td>3326</td>
-                                                  <td>10/21/2013</td>
-                                                  <td>3:29 PM</td>
-                                                  <td>$321.33</td>
+                                                  <td>0001</td>
+                                                  <td>17/12/2015</td>
+                                                  <td>8:36 AM</td>
+                                                  <td>Connect To</td>
                                               </tr>
                                               <tr>
-                                                  <td>3325</td>
-                                                  <td>10/21/2013</td>
-                                                  <td>3:20 PM</td>
-                                                  <td>$234.34</td>
+                                                  <td>0002</td>
+                                                  <td>17/12/2015</td>
+                                                  <td>8:38 AM</td>
+                                                  <td>Init Robot</td>
                                               </tr>
                                               <tr>
-                                                  <td>3324</td>
-                                                  <td>10/21/2013</td>
-                                                  <td>3:03 PM</td>
-                                                  <td>$724.17</td>
+                                                  <td>0003</td>
+                                                  <td>17/12/2015</td>
+                                                  <td>8:40 AM</td>
+                                                  <td>Take Picture</td>
                                               </tr>
                                               <tr>
-                                                  <td>3323</td>
-                                                  <td>10/21/2013</td>
-                                                  <td>3:00 PM</td>
-                                                  <td>$23.71</td>
+                                                  <td>0004</td>
+                                                  <td>17/12/2015</td>
+                                                  <td>8:42 AM</td>
+                                                  <td>Kick</td>
                                               </tr>
                                               <tr>
-                                                  <td>3322</td>
-                                                  <td>10/21/2013</td>
-                                                  <td>2:49 PM</td>
-                                                  <td>$8345.23</td>
+                                                  <td>0005</td>
+                                                  <td>17/12/2015</td>
+                                                  <td>8:50 AM</td>
+                                                  <td>Disconnect</td>
                                               </tr>
                                               <tr>
-                                                  <td>3321</td>
-                                                  <td>10/21/2013</td>
-                                                  <td>2:23 PM</td>
-                                                  <td>$245.12</td>
-                                              </tr>
-                                              <tr>
-                                                  <td>3320</td>
-                                                  <td>10/21/2013</td>
-                                                  <td>2:15 PM</td>
-                                                  <td>$5663.54</td>
-                                              </tr>
-                                              <tr>
-                                                  <td>3319</td>
-                                                  <td>10/21/2013</td>
-                                                  <td>2:13 PM</td>
-                                                  <td>$943.45</td>
+                                                  <td>0006</td>
+                                                  <td>17/12/2015</td>
+                                                  <td>8:53 AM</td>
+                                                  <td>Mime</td>
                                               </tr>
                                           </tbody>
                                       </table>
@@ -264,118 +236,6 @@
                               <!-- /.col-lg-4 (nested) -->
                           </div>
                           <!-- /.row -->
-                      </div>
-                      <!-- /.panel-body -->
-                  </div>
-                  <!-- /.panel -->
-                  <div class="panel panel-default">
-                      <div class="panel-heading">
-                          <i class="fa fa-clock-o fa-fw"></i> Responsive Timeline
-                      </div>
-                      <!-- /.panel-heading -->
-                      <div class="panel-body">
-                          <ul class="timeline">
-                              <li>
-                                  <div class="timeline-badge"><i class="fa fa-check"></i>
-                                  </div>
-                                  <div class="timeline-panel">
-                                      <div class="timeline-heading">
-                                          <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                          <p><small class="text-muted"><i class="fa fa-clock-o"></i> 11 hours ago via Twitter</small>
-                                          </p>
-                                      </div>
-                                      <div class="timeline-body">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero laboriosam dolor perspiciatis omnis exercitationem. Beatae, officia pariatur? Est cum veniam excepturi. Maiores praesentium, porro voluptas suscipit facere rem dicta, debitis.</p>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li class="timeline-inverted">
-                                  <div class="timeline-badge warning"><i class="fa fa-credit-card"></i>
-                                  </div>
-                                  <div class="timeline-panel">
-                                      <div class="timeline-heading">
-                                          <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                      </div>
-                                      <div class="timeline-body">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem quibusdam, tenetur commodi provident cumque magni voluptatem libero, quis rerum. Fugiat esse debitis optio, tempore. Animi officiis alias, officia repellendus.</p>
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium maiores odit qui est tempora eos, nostrum provident explicabo dignissimos debitis vel! Adipisci eius voluptates, ad aut recusandae minus eaque facere.</p>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="timeline-badge danger"><i class="fa fa-bomb"></i>
-                                  </div>
-                                  <div class="timeline-panel">
-                                      <div class="timeline-heading">
-                                          <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                      </div>
-                                      <div class="timeline-body">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus numquam facilis enim eaque, tenetur nam id qui vel velit similique nihil iure molestias aliquam, voluptatem totam quaerat, magni commodi quisquam.</p>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li class="timeline-inverted">
-                                  <div class="timeline-panel">
-                                      <div class="timeline-heading">
-                                          <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                      </div>
-                                      <div class="timeline-body">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates est quaerat asperiores sapiente, eligendi, nihil. Itaque quos, alias sapiente rerum quas odit! Aperiam officiis quidem delectus libero, omnis ut debitis!</p>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="timeline-badge info"><i class="fa fa-save"></i>
-                                  </div>
-                                  <div class="timeline-panel">
-                                      <div class="timeline-heading">
-                                          <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                      </div>
-                                      <div class="timeline-body">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minus modi quam ipsum alias at est molestiae excepturi delectus nesciunt, quibusdam debitis amet, beatae consequuntur impedit nulla qui! Laborum, atque.</p>
-                                          <hr>
-                                          <div class="btn-group">
-                                              <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
-                                                  <i class="fa fa-gear"></i>  <span class="caret"></span>
-                                              </button>
-                                              <ul class="dropdown-menu" role="menu">
-                                                  <li><a href="#">Action</a>
-                                                  </li>
-                                                  <li><a href="#">Another action</a>
-                                                  </li>
-                                                  <li><a href="#">Something else here</a>
-                                                  </li>
-                                                  <li class="divider"></li>
-                                                  <li><a href="#">Separated link</a>
-                                                  </li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="timeline-panel">
-                                      <div class="timeline-heading">
-                                          <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                      </div>
-                                      <div class="timeline-body">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi fuga odio quibusdam. Iure expedita, incidunt unde quis nam! Quod, quisquam. Officia quam qui adipisci quas consequuntur nostrum sequi. Consequuntur, commodi.</p>
-                                      </div>
-                                  </div>
-                              </li>
-                              <li class="timeline-inverted">
-                                  <div class="timeline-badge success"><i class="fa fa-graduation-cap"></i>
-                                  </div>
-                                  <div class="timeline-panel">
-                                      <div class="timeline-heading">
-                                          <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                      </div>
-                                      <div class="timeline-body">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt obcaecati, quaerat tempore officia voluptas debitis consectetur culpa amet, accusamus dolorum fugiat, animi dicta aperiam, enim incidunt quisquam maxime neque eaque.</p>
-                                      </div>
-                                  </div>
-                              </li>
-                          </ul>
                       </div>
                       <!-- /.panel-body -->
                   </div>
